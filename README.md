@@ -1,14 +1,16 @@
-심장 질환 예측 모델
+###심장 질환 예측 모델
 
 이 프로젝트는 심장 질환 예측을 위해 DNN을 사용한 모델을 구축한 것입니다. 
 다양한 건강 지표를 기반으로 심장 질환 유무를 이진 분류하는 모델입니다. 
 PyTorch 라이브러리를 사용하여 모델을 구현하였고, Dropout과 Batch Normalization을 통해 과적합을 방지하고 성능을 향상시켰습니다.
 
-데이터 출처 : https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+##데이터 출처 
 
-데이터
+https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
-'age': '나이',​
+## 데이터
+
+'age': '나이',​</br>
 'sex': '성별',​
 'cp': '흉통 유형 (4가지 값)',​
 1: 전형적인 협심증 (Typical angina)​
